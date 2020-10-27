@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
   
   
-  README DEMO 
+  README DEMO :computer:
   ============
 
   ## Table of Contents
