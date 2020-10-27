@@ -4,26 +4,44 @@
   README DEMO :computer:
   ============
 
-  ## Table of Contents
+  ## Table of Contents :page_with_curl:
+
+  *[Title](#title)
+
+  *[Description](#description)
+
+  *[Installation](#installation)
+
+  *[Usage](#usage)
+
+  *[Contributions](#contributions)
+
+  *[Questions](#questions)
+
+  *[License](#license)
     
-  Title of Project
-  -----------------
-  ## c
+  # Title of Project
+
+  ## Demo README Generator
 
   # Description
-  ## d
+  ## README Generator that can be used to save time for your projects. This a demo to demonstrate functionality
 
   # Installation
-  * e 
-  * f
+  * npm install inqurier 
+  * no tests at this time
 
   # Usage
-  ## g
+  ## This repo is currently an assingment
     
   # Contributions
-  ## h
+  ## No contributions are needed at this time
+
+  # Questions
+  ## If you have any questions feel free to email me at :[Email](kimberley.5118@gmail.com)
+  ## Here's a link to my [GitHub]:(http://github.com/kim-tor)
 
   # License
-  ## i
+  ## MIT
 
 
