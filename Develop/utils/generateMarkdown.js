@@ -3,29 +3,30 @@ function generateMarkdown(data) {
   return `
   
   
-  README DEMO
+  README DEMO 
   ============
 
+  ## Table of Contents
     
-  # Title of Project
+  Title of Project
   -----------------
-  - ${data.title}
+  ## ${data.title}
 
   # Description
   ## ${data.description}
-
-  # License
-  ## ${data.license}
 
   # Installation
   * ${data.install} 
   * ${data.test}
 
   # Usage
-  ${data.usage}
+  ## ${data.usage}
     
   # Contributions
-  ${data.contributions}
+  ## ${data.contributions}
+
+  # License
+  ## ${data.license}
 
 
 `;
