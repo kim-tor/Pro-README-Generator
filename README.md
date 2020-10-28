@@ -15,9 +15,9 @@ Create a generator that takes in user input to create a README.md file.
 To create this generator I required in the inquirer npm package to allow me to prompt the user for input. An array of questions was then created which would then be called when the user ran a node index.js in their terminal. Upon completion of the questions the generateMarkdown.js that was provided was used along with the writeToFile method to generate a md file. Modifications were made to the generateMarkdown to format it into a more detailed README.
 
 ## Usage
-[!Image of README Generator](READMEGIF.gif)
+![Image of README Generator](READMEGIF.gif)
 Link to full video: https://drive.google.com/file/d/1Bp-NmY-NXYD9jzcm-yUafqIaEIfcDvgG/view
-[!Screenshot of generated README](readmescreenshot.jpg)
+![Screenshot of generated README](readmescreenshot.jpg)
 
 ## Resources
 * https://guides.github.com/features/mastering-markdown/
