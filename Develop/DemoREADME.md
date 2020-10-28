@@ -1,26 +1,25 @@
 
   
-  
-  # Title of Project :computer:
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ============
 
-  ## README Generator DEMO
+  Title of Project :computer:
+  ============
+  # README Generator DEMO
 
 
   ## Table of Contents :page_with_curl:
 
-  *[Description](#description)
+  * [Description](#description)
 
-  *[Installation](#installation)
+  * [Installation](#installation)
 
-  *[Usage](#usage)
+  * [Usage](#usage)
 
-  *[Contributions](#contributions)
+  * [Contributions](#contributions)
 
-  *[Questions](#questions)
+  * [Questions](#questions)
 
-  *[License](#license)
+  * [License](#license)
     
   # Description
   ## DEMO to display functionality of README Generator

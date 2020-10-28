@@ -2,27 +2,26 @@
 function generateMarkdown(data) {
   return `
   
-  
-  # Title of Project :computer:
   ${returnLicense(data.license)}
-  ============
 
-  ## ${(data.title)}
+  Title of Project :computer:
+  ============
+  # ${(data.title)}
 
 
   ## Table of Contents :page_with_curl:
 
-  *[Description](#description)
+  * [Description](#description)
 
-  *[Installation](#installation)
+  * [Installation](#installation)
 
-  *[Usage](#usage)
+  * [Usage](#usage)
 
-  *[Contributions](#contributions)
+  * [Contributions](#contributions)
 
-  *[Questions](#questions)
+  * [Questions](#questions)
 
-  *[License](#license)
+  * [License](#license)
     
   # Description
   ## ${data.description}
