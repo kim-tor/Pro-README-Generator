@@ -3,12 +3,14 @@ function generateMarkdown(data) {
   return `
   
   
-  README DEMO :computer:
+  # Title of Project :computer:
   ============
 
-  ## Table of Contents :page_with_curl:
+  ## ${data.title}
 
-  *[Title](#title)
+  [![License](${data.license})]
+ 
+  ## Table of Contents :page_with_curl:
 
   *[Description](#description)
 
@@ -22,10 +24,6 @@ function generateMarkdown(data) {
 
   *[License](#license)
     
-  # Title of Project
-
-  ## ${data.title}
-
   # Description
   ## ${data.description}
 
@@ -41,7 +39,7 @@ function generateMarkdown(data) {
 
   # Questions
   ## If you have any questions feel free to email me at :[Email](${data.email})
-  ## Here's a link to my [GitHub]:(http://github.com/${data.github})
+  ## Here's a link to my GitHub:(http://github.com/${data.github})
 
   # License
   ## ${data.license}

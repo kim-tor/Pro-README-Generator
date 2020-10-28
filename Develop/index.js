@@ -45,9 +45,10 @@ const questions = [
         message: "What does the user need to know about contributing to the repo?"
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "What kind of license should your project have?"
+        message: "What kind of license should your project have?",
+        choices: ["MIT License","Apache License", "GPLv2" ]
     },
 ];
 
