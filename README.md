@@ -17,6 +17,7 @@ To create this generator I required in the inquirer npm package to allow me to p
 ## Usage
 [!Image of README Generator](READMEGIF.gif)
 Link to full video: https://drive.google.com/file/d/1Bp-NmY-NXYD9jzcm-yUafqIaEIfcDvgG/view
+[!Screenshot of generated README](readmescreenshot.jpg)
 
 ## Resources
 * https://guides.github.com/features/mastering-markdown/
