@@ -4,12 +4,12 @@ function generateMarkdown(data) {
   
   
   # Title of Project :computer:
+  ${returnLicense(data.license)}
   ============
 
-  ## ${data.title}
+  ## ${(data.title)}
 
-  [![License](${data.license})]
- 
+
   ## Table of Contents :page_with_curl:
 
   *[Description](#description)
@@ -42,11 +42,31 @@ function generateMarkdown(data) {
   ## Here's a link to my GitHub:(http://github.com/${data.github})
 
   # License
-  ## ${data.license}
-
+  ## ${returnLicense(data.license)}
+  
 
 `;
 }
+
+function returnLicense(licenseChoice) {
+
+  switch (licenseChoice) {
+    case "MIT License":
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      break;
+
+    case "Apache License":
+      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      break;
+    case "GNU GPLv3":
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+      break;
+
+    default:
+      break;
+  }
+
+};
 
 module.exports = generateMarkdown;
 
